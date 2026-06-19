@@ -1,15 +1,17 @@
 import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
+
+//edit this part
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Taylor", 
+  lastName: "kim",
+  name: `Taylor kim`,
+  role: "Devloper and GIS Specialist",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "taylorjosephkim@gmail.com",
+  location: "Brisbane, Queensland, Australia", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Korean"], // optional: Leave the array empty if you don't want to display languages
   locale: "en", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
 };
 
@@ -26,7 +28,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/im-your-taylor",
     essential: true,
   },
   {
