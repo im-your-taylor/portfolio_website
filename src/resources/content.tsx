@@ -163,12 +163,20 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Massey University",
+        description: <>Studied Computer Science (BInfSc 2024-2026). </>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Massey University",
+        description: <>Studied Planning (Postgraduate Diploma 2022-2023).</>,
+      },
+      {
+        name: "Auckland University of Technology",
+        description: <>Studied Geospatial Science (Master of Science 2020-2021).</>,
+      },
+      {
+        name: "Auckland University of Technology",
+        description: <>Studied Applied Conservation & Geospatial Science [Double Major] (BSc 2017-2019).</>,
       },
     ],
   },
