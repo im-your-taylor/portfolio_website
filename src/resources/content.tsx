@@ -147,21 +147,39 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Massey University",
+        timeframe: "April 2023 - July 2023",
+        role: "Data Annotator (Research Assistant)",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Supported researchers in training machine learning models 
+            by accurately categorising, labelling, and annotating data.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Assisted the BioWhere project team working with New Zealand spatial data 
+            using ArcGIS Pro, QGIS, and Microsoft Office. 
           </>,
         ],
         images: [],
       },
+
+
+      {
+        company: "Four Seasons Architecture",
+        timeframe: "July 2021 - August 2022",
+        role: "Assistant Officer",
+        achievements: [
+          <>
+            Provided comprehensive administrative support to ensure the efficient operation of the office, 
+            including preparing invoices and documenting processes.
+          </>,
+          <>
+            Managed internal and external communications by writing and distributing correspondence memos and emails.
+          </>,
+        ],
+        images: [],
+      },
+  
     ],
   },
   studies: {
