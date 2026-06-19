@@ -10,7 +10,7 @@ const person: Person = {
   role: "Developer and GIS Specialist",
   avatar: "/images/avatar.jpg",
   email: "taylorjosephkim@gmail.com",
-  location: "Queensland/Australia", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Australia/Brisbane", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Korean"], // optional: Leave the array empty if you don't want to display languages
   locale: "en", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
 };
