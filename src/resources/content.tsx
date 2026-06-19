@@ -7,10 +7,10 @@ const person: Person = {
   firstName: "Taylor", 
   lastName: "kim",
   name: `Taylor kim`,
-  role: "Devloper and GIS Specialist",
+  role: "Developer and GIS Specialist",
   avatar: "/images/avatar.jpg",
   email: "taylorjosephkim@gmail.com",
-  location: "Brisbane, Queensland, Australia", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Queensland/Australia", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Korean"], // optional: Leave the array empty if you don't want to display languages
   locale: "en", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
 };
