@@ -8,7 +8,7 @@ const person: Person = {
   lastName: "kim",
   name: `Taylor kim`,
   role: "Developer and GIS Specialist",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/avatar.png",
   email: "taylorjosephkim@gmail.com",
   location: "Australia/Brisbane", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Korean"], // optional: Leave the array empty if you don't want to display languages
