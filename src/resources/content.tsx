@@ -109,9 +109,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        {person.firstName} is a {person.location.split("/")[1]?.replace("_", " ")}-based {person.role.toLowerCase()} with a passion for transforming complex challenges
-        into simple, elegant design solutions. Their work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        {person.firstName} is a {person.location.split("/")[1]?.replace("_", " ")}-based {person.role.toLowerCase()} bridging the gap between complex spatial data and modern web technologies. He specializes in engineering robust, data-driven solutions and seamless interactive experiences.
       </>
     ),
   },
