@@ -66,7 +66,10 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  
+  
+  headline: <>Bridging geospatial science and modern web development</>,
+  
   featured: {
     display: true,
     title: (
@@ -74,15 +77,18 @@ const home: Home = {
         <strong className="ml-4"> Work </strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          Featured project
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+   
+    href: "/work", 
   },
+  
+  
   subline: (
     <>
-      I'm {person.firstName}, recent graduate with a passion for creating innovative digital solutions. After hours, I build my own projects.
+      I'm {person.firstName}, leveraging my background in Computer Science and Geospatial Science to build smart, scalable digital solutions and insightful data systems.
     </>
   ),
 };
@@ -557,3 +563,5 @@ const gallery: Gallery = {
 };
 
 export { person, social, newsletter, home, about, blog, work, gallery };
+
+
