@@ -270,6 +270,19 @@ const about: About = {
             name: "Supabase",
             icon: "supabase",
           },
+
+          {
+            name: "Python",
+            icon: "python",
+
+          },
+
+          {
+            name: "Java",
+            icon: "java",
+
+          },
+
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -351,7 +364,7 @@ const about: About = {
       },
 
       {
-        title: "GrAPHIC DESIGN & PROTOTYPING",
+        title: "GRAPHIC DESIGN & PROTOTYPING",
         description: (
           <>Figma, Adobe Creative Suite, Clip Studio Paint, Aesprite, Microsoft Clipchamp </>
         ),
