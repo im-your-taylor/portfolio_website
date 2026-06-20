@@ -179,6 +179,48 @@ const about: About = {
         ],
         images: [],
       },
+
+
+      {
+        company: "Downer Group",
+        timeframe: "July 2020 - December 2020",
+        role: "GIS Team Intern",
+        achievements: [
+          <>
+            Collaborated with the GIS team to establish and execute complex network analysis projects.
+          </>,
+          <>
+            Built and developed geospatial network frameworks and custom geoprocessing tools utilizing ArcGIS Pro.
+          </>,
+          <>
+            Evaluated and enhanced cartographic representations to improve data visualization and accuracy.
+          </>,
+          <>
+            Provided crucial technical support and drafted comprehensive documentation for internal teams.
+          </>
+        ],
+        images: [],
+      },
+
+
+      {
+        company: "SELF-EMPLOYED ",
+        timeframe: "December 2017 - August 2018",
+        role: "Private Math Tutor",
+        achievements: [
+          <>
+            Created and administered weekly quizzes and monthly tests to accurately track and assess student progress.
+          </>,
+          <>
+            Guided struggling students to improve their critical thinking and mathematical problem-solving skills.
+          </>,
+          <>
+            Provided consistent encouragement to boost students' self-confidence and foster a positive learning environment.
+          </>
+
+        ],
+        images: [],
+      },
   
     ],
   },
@@ -264,6 +306,151 @@ const about: About = {
           },
         ],
       },
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+        title: "PROGRAMMING & IT SKILLS",
+        description: (
+          <>I'm familiar with Java, Python, C++, R, JavaScript, HTML, CSS, Git, GitHub, SQL</>
+        ),
+        tags: [
+          {
+            name: "JavaScript",
+            icon: "javascript",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+          {
+            name: "Supabase",
+            icon: "supabase",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+
+
+
+
+      {
+        title: "CLOUD & DEVELOPMENT TOOLS",
+        description: (
+          <>Experience with cloud platforms and development tools.</>,
+          <>AWS, Vercel, Docker, IntelliJ, VSCode, PyCharm, Google Colab, MongoDB</>
+        ),
+        tags: [
+          {
+            name: "JavaScript",
+            icon: "javascript",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+          {
+            name: "Supabase",
+            icon: "supabase",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+
+      
+
+
+
+      {
+        title: "GEOSPATIAL & ENVIRONMENTAL ANALYSIS",
+        description: (
+          <>ESRI ArcGIS Pro, QGIS, Spatial Data Analysis, Cartographic Mapping</>
+        ),
+        tags: [
+          {
+            name: "JavaScript",
+            icon: "javascript",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+          {
+            name: "Supabase",
+            icon: "supabase",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+
+
+
+      {
+        title: "ADMINISTRATION & COMMUNICATION",
+        description: (
+          <>Experience in administrative tasks and effective communication.</>,
+          <>Microsoft Office Suite, Documentation, Interdepartmental Communication</>
+        ),
+        tags: [
+          {
+            name: "JavaScript",
+            icon: "javascript",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+          {
+            name: "Supabase",
+            icon: "supabase",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+
+
+
     ],
   },
 };
