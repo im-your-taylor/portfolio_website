@@ -7,7 +7,7 @@ const person: Person = {
   firstName: "Taylor", 
   lastName: "kim",
   name: `Taylor kim`,
-  role: "Developer and GIS Specialist",
+  role: "Software Developer and GIS Specialist",
   avatar: "/images/avatar.png",
   email: "taylorjosephkim@gmail.com",
   location: "Australia/Brisbane", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
