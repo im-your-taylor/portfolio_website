@@ -255,7 +255,7 @@ const about: About = {
       {
         title: "PROGRAMMING & IT SKILLS",
         description: (
-          <>I'm familiar with Java, Python, C++, R, JavaScript, HTML, CSS, Git, GitHub, SQL</>
+          <>I'm familiar with Java, Python, C++, Next.js, R, JavaScript, HTML, CSS, Git, GitHub, SQL</>
         ),
         tags: [
           {
@@ -283,16 +283,46 @@ const about: About = {
 
           },
 
+          {
+            name: "R",
+            icon: "r",
+          },
+
+          {
+            name: "C++",
+            icon: "cpp",
+
+          },
+
+          {
+            name: "SQL",
+            icon: "sql",
+          },
+
+          {
+            name: "Git",
+            icon: "git",
+          },
+
+          {
+            name: "HTML",
+            icon: "html",
+          },
+          {
+            name: "CSS",
+            icon: "css",
+          }
+
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        //images: [
+        //  {
+        //    src: "/images/projects/project-01/cover-04.jpg",
+        //    alt: "Project image",
+        //    width: 16,
+        //    height: 9,
+        //  },
+        //],
       },
 
 
@@ -301,30 +331,45 @@ const about: About = {
       {
         title: "CLOUD & DEVELOPMENT TOOLS",
         description: (
-          <>Experience with cloud platforms and development tools.</>,
-          <>AWS, Vercel, Docker, IntelliJ, VSCode, PyCharm, Google Colab, MongoDB</>
+          <>Experience with cloud platforms and development tools.</>
+          
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "AWS",
+            icon: "aws",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Vercel",
+            icon: "vercel",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Docker",
+            icon: "docker",
           },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
+
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "IntelliJ",
+            icon: "intellij",
+          },
+
+          {
+            name: "VSCode",
+            icon: "vscode",
+          },
+
+          {
+            name: "PyCharm",
+            icon: "pycharm",
+          },
+
+          {
+            name: "Google Colab",
+            icon: "colab",
+          },
+          {
+            name: "MongoDB",
+            icon: "mongodb",
           },
         ],
       },
@@ -340,27 +385,39 @@ const about: About = {
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "ArcGIS Pro",
+            icon: "arcgis",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "QGIS",
+            icon: "qgis",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "QGIS",
+            icon: "qgis",
+          },
+
+          {
+            name: "Spatial Data Analysis",
+            icon: "spatial",
+          },
+
+          {
+            name: "Cartographic Mapping",
+            icon: "mapping",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
+        
+
+                images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/esri.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
         ],
+        
       },
 
       {
@@ -373,22 +430,29 @@ const about: About = {
             name: "Figma",
             icon: "figma",
           },
+
+          {
+            name: "Adobe Creative Suite",
+            icon: "adobe",
+          },
+
+          {
+            name: "Clip Studio Paint",
+            icon: "clipstudio",
+          },
+
+          {
+            name: "Aesprite",
+            icon: "aesprite",
+          },
+          {
+            name: "Microsoft Clipchamp",
+            icon: "clipchamp",
+          },
+
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+
       },
 
 
@@ -396,32 +460,25 @@ const about: About = {
       {
         title: "ADMINISTRATION & COMMUNICATION",
         description: (
-          <>Experience in administrative tasks and effective communication.</>,
-          <>Microsoft Office Suite, Documentation, Interdepartmental Communication</>
+          <>Experience in administrative tasks and effective communication.</>
+          
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "Microsoft Office Suite",
+            icon: "office",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Documentation",
+            icon: "documentation",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
-          },
+            name: "Interdepartmental Communication",
+            icon: "communication",
+          }
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+
       },
 
 
