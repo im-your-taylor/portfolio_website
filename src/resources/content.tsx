@@ -34,10 +34,10 @@ const social: Social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/taylor-kim-742426418/",
     essential: true,
   },
-  {
+  /*{
     name: "Instagram",
     icon: "instagram",
     link: "https://www.instagram.com/once_ui/",
@@ -49,6 +49,9 @@ const social: Social = [
     link: "https://www.threads.com/@once_ui",
     essential: true,
   },
+
+  */
+
   {
     name: "Email",
     icon: "email",
