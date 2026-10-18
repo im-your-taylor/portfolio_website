@@ -7,7 +7,7 @@ const person: Person = {
   firstName: "Taylor", 
   lastName: "kim",
   name: `Taylor kim`,
-  role: "Software Developer and GIS Specialist",
+  role: "Software Enginneer",
   avatar: "/images/avatar.png",
   email: "taylorjosephkim@gmail.com",
   location: "Australia/Brisbane", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -68,7 +68,7 @@ const home: Home = {
   description: `Portfolio website showcasing my work as a ${person.role}`,
   
   
-  headline: <>Bridging geospatial science and modern web development</>,
+  headline: <>Bridging geospatial science and software engineering</>,
   
   featured: {
     display: true,
@@ -122,9 +122,36 @@ const about: About = {
     display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
+
+            {
+        company: "SDSI",
+        timeframe: "Oct 2026 - Present",
+        role: "Software Engineer",
+        achievements: [
+          <>
+            
+          </>,
+          <>
+            
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/sdsiau_logo.jpg",
+            alt: "Product page design",
+            width: 16,
+            height: 9,
+          },
+
+        ],
+      },
+
+
+
       {
         company: "Foodring Namwon Seafood Ltd",
-        timeframe: "2024 - Present",
+        timeframe: "2024 - June 2026",
         role: "Digital Marketing & Web Coordinator ",
         achievements: [
           <>
